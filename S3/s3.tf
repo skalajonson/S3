@@ -1,8 +1,5 @@
 provider "aws" {
-    #access_key = "AKIAQGL7X2SFPAF5ROUO"
-    #secret_key = "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"
-    access_key = "AKIAQGL7X2SFETNE3SZ6"
-    secret_key = "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"
+    
     region = "eu-north-1"
 }
 resource "aws_s3_bucket" "my_bucket" {
