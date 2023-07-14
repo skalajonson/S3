@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "my_bucket" {
 resource "aws_s3_bucket_object" "my_folder" {
   bucket = "kakashka"
   key    = "files/"
-  source = "/home/telephon/Стільниця/Terraform_X_Bucket/files/lapka.txt"
+  source = "files/lapka.txt"
 }
 resource "aws_s3_bucket_object" "my_object" {
   bucket = "kakashka"
